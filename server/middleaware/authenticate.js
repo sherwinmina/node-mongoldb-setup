@@ -14,7 +14,6 @@ var authenticate = (req, res, next) => {
   }).catch((e) => {
     res.status(401).send();
   });
-  
 };
 
 module.exports = {authenticate};
